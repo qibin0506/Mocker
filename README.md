@@ -1,5 +1,5 @@
 # Mocker
-A java or android data mocker library.
+A java or android data mock library.
 
 # Example
 
