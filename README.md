@@ -27,6 +27,9 @@ public class Data {
 
     @Bool(true)
     public boolean show;
+    
+    @Len(5)
+    public List<String> friends;
 }
 
 ```
