@@ -1,0 +1,17 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
+
+publish {
+    userOrg = 'qibin'
+    groupId = 'org.loader'
+    artifactId = 'mocker'
+    publishVersion = '0.0.1'
+    desc = 'A java or android data mocker library.'
+    website = 'https://github.com/qibin0506/Mocker'
+}
