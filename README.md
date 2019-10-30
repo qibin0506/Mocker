@@ -4,7 +4,7 @@ A java or android data mock library.
 # Getting Started
 first, add the library to your project,
 ```
-debugImplementation ''org.loader:mocker:0.0.1''
+debugImplementation 'org.loader:mocker:0.0.1'
 releaseImplementation 'org.loader:mocker_no_op:0.0.1'
 ```
 **Note: the `mock` method will return the argument itself when using `mocker_no_op`**
