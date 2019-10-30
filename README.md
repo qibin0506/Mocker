@@ -2,7 +2,13 @@
 A java or android data mock library.
 
 # Getting Started
-first, define your data class
+first, add the library to your project,
+```
+debugImplementation ''org.loader:mocker:0.0.1''
+releaseImplementation 'org.loader:mocker_no_op:0.0.1'
+```
+
+then, define your data class
 ``` java
 public class Data {
     @Len(5)
@@ -11,7 +17,7 @@ public class Data {
 }
 ```
 
-then, mock it!
+last, mock it!
 ``` java
 Data data = new Data();
 data = Mocker.mock(data);
