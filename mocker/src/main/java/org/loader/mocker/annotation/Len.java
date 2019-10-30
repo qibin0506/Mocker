@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Define the length of list of string, etc.
+ * Define the length of list or string, etc.
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
